@@ -1,13 +1,13 @@
 ﻿# Fix namespaces for nuget package:
 
 # Replace: 
-SkorubaIdentityServer4Admin.Admin.BusinessLogic
+Code4IdentityServer4Admin.Admin.BusinessLogic
 with:
-Skoruba.IdentityServer4.Admin.BusinessLogic
+Code4.IdentityServer4.Admin.BusinessLogic
 # Replace:
-SkorubaIdentityServer4Admin.Admin.EntityFramework
+Code4IdentityServer4Admin.Admin.EntityFramework
 with:
-Skoruba.IdentityServer4.Admin.EntityFramework
+Code4.IdentityServer4.Admin.EntityFramework
 
 # Fix nuget package name
 # Copy fixed src to template-publish

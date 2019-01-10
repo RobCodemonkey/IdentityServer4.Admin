@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts;
+using Code4.IdentityServer4.Admin.EntityFramework.DbContexts;
 
-namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
+namespace Code4IdentityServer4Admin.Admin.Data.Migrations
 {
     [DbContext(typeof(AdminDbContext))]
     partial class AdminDbContextModelSnapshot : ModelSnapshot
@@ -520,7 +520,7 @@ namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
                     b.ToTable("PersistedGrants");
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Entities.Log", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Entities.Log", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -547,7 +547,7 @@ namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
                     b.ToTable("Log");
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentity", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -599,7 +599,7 @@ namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityRole", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityRole", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -624,7 +624,7 @@ namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
                     b.ToTable("Roles");
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityRoleClaim", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityRoleClaim", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -643,7 +643,7 @@ namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
                     b.ToTable("RoleClaims");
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserClaim", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserClaim", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -662,7 +662,7 @@ namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
                     b.ToTable("UserClaims");
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserLogin", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserLogin", b =>
                 {
                     b.Property<string>("LoginProvider");
 
@@ -679,7 +679,7 @@ namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
                     b.ToTable("UserLogins");
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserRole", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserRole", b =>
                 {
                     b.Property<int>("UserId");
 
@@ -692,7 +692,7 @@ namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
                     b.ToTable("UserRoles");
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserToken", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserToken", b =>
                 {
                     b.Property<int>("UserId");
 
@@ -819,46 +819,46 @@ namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityRoleClaim", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityRoleClaim", b =>
                 {
-                    b.HasOne("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityRole")
+                    b.HasOne("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityRole")
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserClaim", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserClaim", b =>
                 {
-                    b.HasOne("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentity")
+                    b.HasOne("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentity")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserLogin", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserLogin", b =>
                 {
-                    b.HasOne("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentity")
+                    b.HasOne("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentity")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserRole", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserRole", b =>
                 {
-                    b.HasOne("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityRole")
+                    b.HasOne("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityRole")
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentity")
+                    b.HasOne("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentity")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserToken", b =>
+            modelBuilder.Entity("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentityUserToken", b =>
                 {
-                    b.HasOne("Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentity")
+                    b.HasOne("Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity.UserIdentity")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);

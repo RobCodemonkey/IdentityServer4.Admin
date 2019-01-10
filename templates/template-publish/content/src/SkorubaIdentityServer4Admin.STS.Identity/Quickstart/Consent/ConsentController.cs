@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Consent
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Consent
 {
     /// <summary>
     /// This controller processes the consent UI

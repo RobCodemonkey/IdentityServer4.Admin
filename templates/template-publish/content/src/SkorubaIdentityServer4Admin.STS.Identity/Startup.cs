@@ -2,11 +2,11 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity;
-using SkorubaIdentityServer4Admin.STS.Identity.Helpers;
+using Code4.IdentityServer4.Admin.EntityFramework.DbContexts;
+using Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity;
+using Code4IdentityServer4Admin.STS.Identity.Helpers;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity
+namespace Code4IdentityServer4Admin.STS.Identity
 {
     public class Startup
     {

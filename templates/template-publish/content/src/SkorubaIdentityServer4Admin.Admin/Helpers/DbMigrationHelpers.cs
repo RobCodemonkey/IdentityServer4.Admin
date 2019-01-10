@@ -6,14 +6,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Constants;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Identity;
-using SkorubaIdentityServer4Admin.Admin.Configuration.IdentityServer;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Interfaces;
-using Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity;
+using Code4IdentityServer4Admin.Admin.Configuration.Constants;
+using Code4IdentityServer4Admin.Admin.Configuration.Identity;
+using Code4IdentityServer4Admin.Admin.Configuration.IdentityServer;
+using Code4IdentityServer4Admin.Admin.Configuration.Interfaces;
+using Code4.IdentityServer4.Admin.EntityFramework.DbContexts;
+using Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity;
 
-namespace SkorubaIdentityServer4Admin.Admin.Helpers
+namespace Code4IdentityServer4Admin.Admin.Helpers
 {
     public static class DbMigrationHelpers
     {

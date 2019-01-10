@@ -2,11 +2,11 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Constants;
-using Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts;
+using Code4.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
+using Code4IdentityServer4Admin.Admin.Configuration.Constants;
+using Code4.IdentityServer4.Admin.EntityFramework.DbContexts;
 
-namespace SkorubaIdentityServer4Admin.Admin.Controllers
+namespace Code4IdentityServer4Admin.Admin.Controllers
 {
     [Authorize(Policy = AuthorizationConsts.AdministrationPolicy)]
     public class LogController : BaseController

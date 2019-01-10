@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace SkorubaIdentityServer4Admin.Admin.Data.Migrations
+namespace Code4IdentityServer4Admin.Admin.Data.Migrations
 {
     public partial class DbInit : Migration
     {

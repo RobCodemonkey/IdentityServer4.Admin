@@ -1,3 +1,3 @@
-$templateNuspecPath = "template-publish/Skoruba.IdentityServer4.Admin.Templates.nuspec"
+$templateNuspecPath = "template-publish/Code4.IdentityServer4.Admin.Templates.nuspec"
 
 nuget pack $templateNuspecPath

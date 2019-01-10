@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace SkorubaIdentityServer4Admin.Admin.Helpers.Identity
+namespace Code4IdentityServer4Admin.Admin.Helpers.Identity
 {
     /// <inheritdoc />
     /// <summary>

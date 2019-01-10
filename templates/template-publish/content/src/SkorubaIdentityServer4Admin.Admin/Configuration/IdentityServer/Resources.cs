@@ -2,7 +2,7 @@
 using IdentityModel;
 using IdentityServer4.Models;
 
-namespace SkorubaIdentityServer4Admin.Admin.Configuration.IdentityServer
+namespace Code4IdentityServer4Admin.Admin.Configuration.IdentityServer
 {
     public class ClientResources
     {

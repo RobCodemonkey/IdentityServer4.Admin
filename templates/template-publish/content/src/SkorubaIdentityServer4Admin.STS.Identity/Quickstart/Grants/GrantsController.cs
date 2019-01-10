@@ -10,7 +10,7 @@ using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Grants
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Grants
 {
     /// <summary>
     /// This sample controller allows a user to revoke grants given to clients

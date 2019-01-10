@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Consent
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Consent
 {
     public class ConsentViewModel : ConsentInputModel
     {

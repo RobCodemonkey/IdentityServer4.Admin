@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Serilog;
-using SkorubaIdentityServer4Admin.Admin.Helpers;
+using Code4IdentityServer4Admin.Admin.Helpers;
 
-namespace SkorubaIdentityServer4Admin.Admin
+namespace Code4IdentityServer4Admin.Admin
 {
     public class Program
     {

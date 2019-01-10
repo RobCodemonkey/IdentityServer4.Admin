@@ -2,7 +2,7 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Account
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Account
 {
     public class LogoutViewModel : LogoutInputModel
     {

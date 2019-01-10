@@ -34,7 +34,7 @@ services.AddAdminAspNetIdentityServices<AdminDbContext, UserDto<Guid>, Guid, Rol
                                 UserIdentityUserLogin, UserIdentityRoleClaim, UserIdentityUserToken>();
 ```
 
-### 2. Change `int` to `Guid` in all files in folder - `Skoruba.IdentityServer4.Admin.EntityFramework/Entities/Identity`:
+### 2. Change `int` to `Guid` in all files in folder - `Code4.IdentityServer4.Admin.EntityFramework/Entities/Identity`:
 
 For example - `UserIdentity.cs`:
 
@@ -56,16 +56,16 @@ public class UserIdentity : IdentityUser<Guid>
 	}
 ```
 
-- Change `int` to `Guid` in other files in this folder - `Skoruba.IdentityServer4.Admin.EntityFramework/Entities/Identity`
+- Change `int` to `Guid` in other files in this folder - `Code4.IdentityServer4.Admin.EntityFramework/Entities/Identity`
 
-### 3. Change `int` to `Guid` in all files in folder - `Skoruba.IdentityServer4.Admin/Views/Identity`:
+### 3. Change `int` to `Guid` in all files in folder - `Code4.IdentityServer4.Admin/Views/Identity`:
 
 For example - `Role.cshtml`:
 
 Original:
 
 ```cs
-@model Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Identity.RoleDto<int>
+@model Code4.IdentityServer4.Admin.BusinessLogic.Dtos.Identity.RoleDto<int>
 
 ...
 
@@ -77,7 +77,7 @@ Original:
 New:
 
 ```cs
-@model Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Identity.RoleDto<Guid>
+@model Code4.IdentityServer4.Admin.BusinessLogic.Dtos.Identity.RoleDto<Guid>
 
 ...
 
@@ -86,9 +86,9 @@ New:
 ...
 ```
 
-- Change `int` to `Guid` in other files in this folder - `Skoruba.IdentityServer4.Admin/Views/Identity`
+- Change `int` to `Guid` in other files in this folder - `Code4.IdentityServer4.Admin/Views/Identity`
 
-### 4. Change `int` to `Guid` in `AdminDbContext` - `Skoruba.IdentityServer4.Admin.EntityFramework/DbContexts`:
+### 4. Change `int` to `Guid` in `AdminDbContext` - `Code4.IdentityServer4.Admin.EntityFramework/DbContexts`:
 
 Original:
 
@@ -104,7 +104,7 @@ public class AdminDbContext : IdentityDbContext<UserIdentity, UserIdentityRole, 
         IAdminConfigurationDbContext, IAdminLogDbContext, IAdminPersistedGrantIdentityDbContext
 ```
 
-### 5. Change `int` to `Guid` in `GrantController` - `Skoruba.IdentityServer4.Admin/Controllers`:
+### 5. Change `int` to `Guid` in `GrantController` - `Code4.IdentityServer4.Admin/Controllers`:
 
 Original:
 
@@ -142,7 +142,7 @@ public class GrantController : BaseController
     }
 ```
 
-### 6. Change `int` to `Guid` in `IdentityController` - `Skoruba.IdentityServer4.Admin/Controllers`:
+### 6. Change `int` to `Guid` in `IdentityController` - `Code4.IdentityServer4.Admin/Controllers`:
 
 Original:
 

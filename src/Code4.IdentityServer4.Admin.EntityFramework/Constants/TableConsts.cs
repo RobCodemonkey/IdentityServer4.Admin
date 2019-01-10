@@ -1,0 +1,7 @@
+﻿namespace Code4.IdentityServer4.Admin.EntityFramework.Constants
+{
+    public static class TableConsts
+    {
+        public const string Logging = "Log";
+    }
+}

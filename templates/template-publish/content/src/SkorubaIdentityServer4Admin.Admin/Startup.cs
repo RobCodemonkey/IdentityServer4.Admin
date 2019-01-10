@@ -5,15 +5,15 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Extensions;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Extensions;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Interfaces;
-using Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity;
-using SkorubaIdentityServer4Admin.Admin.Helpers;
+using Code4.IdentityServer4.Admin.BusinessLogic.Extensions;
+using Code4.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
+using Code4.IdentityServer4.Admin.BusinessLogic.Identity.Extensions;
+using Code4IdentityServer4Admin.Admin.Configuration.Interfaces;
+using Code4.IdentityServer4.Admin.EntityFramework.DbContexts;
+using Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity;
+using Code4IdentityServer4Admin.Admin.Helpers;
 
-namespace SkorubaIdentityServer4Admin.Admin
+namespace Code4IdentityServer4Admin.Admin
 {
     public class Startup
     {

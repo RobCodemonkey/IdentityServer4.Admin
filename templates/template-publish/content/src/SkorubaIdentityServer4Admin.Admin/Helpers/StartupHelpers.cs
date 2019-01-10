@@ -25,14 +25,14 @@ using Microsoft.IdentityModel.Tokens;
 using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.MSSqlServer;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Constants;
-using SkorubaIdentityServer4Admin.Admin.ExceptionHandling;
-using SkorubaIdentityServer4Admin.Admin.Middlewares;
-using SkorubaIdentityServer4Admin.Admin.Configuration;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Constants;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Interfaces;
+using Code4.IdentityServer4.Admin.EntityFramework.Constants;
+using Code4IdentityServer4Admin.Admin.ExceptionHandling;
+using Code4IdentityServer4Admin.Admin.Middlewares;
+using Code4IdentityServer4Admin.Admin.Configuration;
+using Code4IdentityServer4Admin.Admin.Configuration.Constants;
+using Code4IdentityServer4Admin.Admin.Configuration.Interfaces;
 
-namespace SkorubaIdentityServer4Admin.Admin.Helpers
+namespace Code4IdentityServer4Admin.Admin.Helpers
 {
     public static class StartupHelpers
     {

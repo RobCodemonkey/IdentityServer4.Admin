@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity
+namespace Code4IdentityServer4Admin.STS.Identity
 {
     public class Program
     {

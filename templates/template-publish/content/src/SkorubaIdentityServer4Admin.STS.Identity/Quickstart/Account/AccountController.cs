@@ -18,9 +18,9 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity;
+using Code4.IdentityServer4.Admin.EntityFramework.Identity.Entities.Identity;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Account
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Account
 {
     [SecurityHeaders]
     public class AccountController : Controller

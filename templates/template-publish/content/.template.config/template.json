@@ -1,46 +1,46 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "Jan Skoruba",
+  "author": "Jan Code4",
   "classifications": ["Web", "IdentityServer4", "Admin"],
-  "name": "Skoruba IdentityServer4 Admin",
-  "identity": "Skoruba.IdentityServer4.Admin",
-  "groupIdentity": "Skoruba.IdentityServer4.Admin",
-  "shortName": "skoruba.is4admin",
+  "name": "Code4 IdentityServer4 Admin",
+  "identity": "Code4.IdentityServer4.Admin",
+  "groupIdentity": "Code4.IdentityServer4.Admin",
+  "shortName": "Code4.is4admin",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "SkorubaIdentityServer4Admin",
+  "sourceName": "Code4IdentityServer4Admin",
   "preferNameDirectory": true,
   "symbols": {
     "title": {
       "type": "parameter",
-      "defaultValue": "Skoruba IdentityServer4 Admin",
-      "replaces": "Skoruba IdentityServer4 Admin",
+      "defaultValue": "Code4 IdentityServer4 Admin",
+      "replaces": "Code4 IdentityServer4 Admin",
       "isRequired": true,
       "description": "The title and footer of the administration"
     },
     "adminrole": {
       "type": "parameter",
-      "defaultValue": "SkorubaIdentityAdminAdministrator",
-      "replaces": "SkorubaIdentityAdminAdministrator",
+      "defaultValue": "Code4IdentityAdminAdministrator",
+      "replaces": "Code4IdentityAdminAdministrator",
       "isRequired": true,
       "description": "The name of admin role, that is used to authorize the administration (for example: MyAdminRole)."
     },
     "adminclientid": {
       "type": "parameter",
-      "defaultValue": "skoruba_identity_admin",
-      "replaces": "skoruba_identity_admin",
+      "defaultValue": "Code4_identity_admin",
+      "replaces": "Code4_identity_admin",
       "isRequired": true,
       "description": "The name of client, that is be used in the IdentityServer4"
     }
   },
   "primaryOutputs": [
     {
-      "path": "src/SkorubaIdentityServer4Admin.Admin/SkorubaIdentityServer4Admin.Admin.csproj"
+      "path": "src/Code4IdentityServer4Admin.Admin/Code4IdentityServer4Admin.Admin.csproj"
     },
     {
-      "path": "src/SkorubaIdentityServer4Admin.STS.Identity/SkorubaIdentityServer4Admin.STS.Identity.csproj"
+      "path": "src/Code4IdentityServer4Admin.STS.Identity/Code4IdentityServer4Admin.STS.Identity.csproj"
     }
   ],
   "postActions": [

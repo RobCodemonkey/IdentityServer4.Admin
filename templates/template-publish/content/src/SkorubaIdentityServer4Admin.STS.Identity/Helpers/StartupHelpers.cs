@@ -11,9 +11,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using SkorubaIdentityServer4Admin.STS.Identity.Configuration.Constants;
+using Code4IdentityServer4Admin.STS.Identity.Configuration.Constants;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Helpers
+namespace Code4IdentityServer4Admin.STS.Identity.Helpers
 {
     public static class StartupHelpers
     {

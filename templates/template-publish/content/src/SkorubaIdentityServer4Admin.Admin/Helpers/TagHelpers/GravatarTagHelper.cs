@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.TagHelpers;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace SkorubaIdentityServer4Admin.Admin.Helpers.TagHelpers
+namespace Code4IdentityServer4Admin.Admin.Helpers.TagHelpers
 {
     [HtmlTargetElement("img-gravatar")]
     public class GravatarTagHelper : TagHelper

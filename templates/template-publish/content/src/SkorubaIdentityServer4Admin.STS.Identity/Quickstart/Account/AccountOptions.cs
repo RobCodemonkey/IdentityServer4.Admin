@@ -4,7 +4,7 @@
 
 using System;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Account
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Account
 {
     public class AccountOptions
     {

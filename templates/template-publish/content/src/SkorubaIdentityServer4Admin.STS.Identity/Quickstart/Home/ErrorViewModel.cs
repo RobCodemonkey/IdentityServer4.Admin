@@ -4,7 +4,7 @@
 
 using IdentityServer4.Models;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Home
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Home
 {
     public class ErrorViewModel
     {

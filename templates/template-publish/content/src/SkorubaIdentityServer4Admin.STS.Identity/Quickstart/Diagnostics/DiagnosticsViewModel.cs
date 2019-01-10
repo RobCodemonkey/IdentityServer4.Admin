@@ -8,7 +8,7 @@ using IdentityModel;
 using Microsoft.AspNetCore.Authentication;
 using Newtonsoft.Json;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Diagnostics
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Diagnostics
 {
     public class DiagnosticsViewModel
     {

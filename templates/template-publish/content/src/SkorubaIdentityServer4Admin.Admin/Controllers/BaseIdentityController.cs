@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.Dtos.Common;
+using Code4.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
+using Code4.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
+using Code4.IdentityServer4.Admin.BusinessLogic.Shared.Dtos.Common;
 
-namespace SkorubaIdentityServer4Admin.Admin.Controllers
+namespace Code4IdentityServer4Admin.Admin.Controllers
 {
     public class BaseIdentityController<TIdentityDbContext, TUserDto, TUserDtoKey, TRoleDto, TRoleDtoKey, TUserKey, TRoleKey, TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken> : BaseController
         where TIdentityDbContext : IdentityDbContext<TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken>

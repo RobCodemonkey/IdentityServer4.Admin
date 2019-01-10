@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Constants;
+using Code4IdentityServer4Admin.Admin.Configuration.Constants;
 
-namespace SkorubaIdentityServer4Admin.Admin.Controllers
+namespace Code4IdentityServer4Admin.Admin.Controllers
 {
     [Authorize]
     public class AccountController : BaseController

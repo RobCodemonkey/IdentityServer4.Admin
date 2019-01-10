@@ -1,4 +1,4 @@
-﻿namespace SkorubaIdentityServer4Admin.Admin.Configuration.Interfaces
+﻿namespace Code4IdentityServer4Admin.Admin.Configuration.Interfaces
 {
     public interface IAdminConfiguration
     {

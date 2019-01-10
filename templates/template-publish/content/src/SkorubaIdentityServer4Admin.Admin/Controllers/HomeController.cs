@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Constants;
-using SkorubaIdentityServer4Admin.Admin.ExceptionHandling;
+using Code4IdentityServer4Admin.Admin.Configuration.Constants;
+using Code4IdentityServer4Admin.Admin.ExceptionHandling;
 
-namespace SkorubaIdentityServer4Admin.Admin.Controllers
+namespace Code4IdentityServer4Admin.Admin.Controllers
 {
     [Authorize(Policy = AuthorizationConsts.AdministrationPolicy)]
     [TypeFilter(typeof(ControllerExceptionFilterAttribute))]

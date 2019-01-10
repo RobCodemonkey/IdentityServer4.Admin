@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using IdentityServer4.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Home
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Home
 {
     [SecurityHeaders]
     public class HomeController : Controller

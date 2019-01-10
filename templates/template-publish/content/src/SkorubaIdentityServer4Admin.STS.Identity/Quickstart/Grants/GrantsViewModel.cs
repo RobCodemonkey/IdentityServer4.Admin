@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Grants
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Grants
 {
     public class GrantsViewModel
     {

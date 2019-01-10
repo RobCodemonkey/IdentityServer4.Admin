@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using IdentityServer4;
 using IdentityServer4.Models;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Constants;
-using SkorubaIdentityServer4Admin.Admin.Configuration.Interfaces;
+using Code4IdentityServer4Admin.Admin.Configuration.Constants;
+using Code4IdentityServer4Admin.Admin.Configuration.Interfaces;
 
-namespace SkorubaIdentityServer4Admin.Admin.Configuration.IdentityServer
+namespace Code4IdentityServer4Admin.Admin.Configuration.IdentityServer
 
 {
     public class Clients
@@ -17,7 +17,7 @@ namespace SkorubaIdentityServer4Admin.Admin.Configuration.IdentityServer
             {
 
 	            ///////////////////////////////////////////
-	            // SkorubaIdentityServer4Admin.Admin Client
+	            // Code4IdentityServer4Admin.Admin Client
 	            //////////////////////////////////////////
 	            new Client
                 {

@@ -7,7 +7,7 @@
 Version: 0.0.1
 Status: Alpha
 
-This project has been forked from https://github.com/skoruba/IdentityServer4.Admin as I needed to make changes that would be detrimental to the main project. 
+This project has been forked from https://github.com/Code4/IdentityServer4.Admin as I needed to make changes that would be detrimental to the main project. 
 Please support the main project!
 
 ## Requirements
@@ -21,7 +21,7 @@ Please support the main project!
 
 ### Template uses following list of nuget packages
 
-- [Available nuget packages](https://www.nuget.org/profiles/skoruba)
+- [Available nuget packages](https://www.nuget.org/profiles/Code4)
 
 ### Running in Visual Studio
 
@@ -179,7 +179,7 @@ This web application is based on these projects:
 - AutoMapper
 - Serilog
 
-Thanks to https://github.com/skoruba
+Thanks to https://github.com/Code4
 
 Thanks to [Tomáš Hübelbauer](https://github.com/TomasHubelbauer) for the initial code review.
 

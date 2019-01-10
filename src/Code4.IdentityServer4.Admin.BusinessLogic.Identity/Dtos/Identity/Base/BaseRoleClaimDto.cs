@@ -1,0 +1,9 @@
+﻿namespace Code4.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity.Base
+{
+    public class BaseRoleClaimDto<TRoleId>
+    {
+        public int ClaimId { get; set; }
+
+        public TRoleId RoleId { get; set; }
+    }
+}

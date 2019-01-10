@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart.Diagnostics
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart.Diagnostics
 {
     [SecurityHeaders]
     [Authorize]

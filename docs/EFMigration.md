@@ -62,7 +62,7 @@ services.AddDbContext<AdminDbContext>(options => options.UseSqlServer(configurat
 
 and change  `UseSqlServer` to `UseMySql`.
 
-Find `Properties` in `Skoruba.IdentityServer4.Admin.EntityFramework\Entities\Log.cs`
+Find `Properties` in `Code4.IdentityServer4.Admin.EntityFramework\Entities\Log.cs`
 
 ```csharp
 [Column(TypeName = "xml")]

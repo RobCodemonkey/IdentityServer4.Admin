@@ -5,7 +5,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace SkorubaIdentityServer4Admin.STS.Identity.Quickstart
+namespace Code4IdentityServer4Admin.STS.Identity.Quickstart
 {
     public class SecurityHeadersAttribute : ActionFilterAttribute
     {

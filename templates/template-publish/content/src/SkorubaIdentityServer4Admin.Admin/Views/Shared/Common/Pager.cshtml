@@ -1,7 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization
-@using Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.Dtos.Common
-@using SkorubaIdentityServer4Admin.Admin.Helpers
-@model Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.Dtos.Common.Pager
+@using Code4.IdentityServer4.Admin.BusinessLogic.Shared.Dtos.Common
+@using Code4IdentityServer4Admin.Admin.Helpers
+@model Code4.IdentityServer4.Admin.BusinessLogic.Shared.Dtos.Common.Pager
 @inject IViewLocalizer Localizer
 @{
 	var currentPage = PagerHelpers.GetCurrentPage(Context.Request.Query["page"]);
